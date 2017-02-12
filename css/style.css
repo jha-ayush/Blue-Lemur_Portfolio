@@ -614,6 +614,12 @@ textarea.form-control {
   box-shadow: 6px 6px 9px #333333;
 
 }
+
+@media screen and (max-width: 768px) {
+  #card-intro {
+    box-shadow: none;
+  }
+}
 /*// Custom Stylesheets*/
 
 /*# sourceMappingURL=style.css.map */
