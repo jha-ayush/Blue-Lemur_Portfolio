@@ -609,6 +609,11 @@ textarea.form-control {
 #hidden{
   display: none;
 }
+
+#card-intro{
+  box-shadow: 6px 6px 12px #333333;
+  border: 1px #333333;
+}
 /*// Custom Stylesheets*/
 
 /*# sourceMappingURL=style.css.map */
