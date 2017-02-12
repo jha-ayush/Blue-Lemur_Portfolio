@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 @media screen and (max-width: 1079px) {
-  margin:0 !important;
+  
 }
 
 #fh5co-header .overlay {
@@ -608,6 +608,10 @@ textarea.form-control {
   font-family: "Allerta Stencil";
 }
 /* End Card Flip  - X-axis*/
+
+#hidden{
+  display: none;
+}
 /*// Custom Stylesheets*/
 
 /*# sourceMappingURL=style.css.map */

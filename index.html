@@ -38,6 +38,12 @@
 	<!-- Magnific Popup -->
 	<link rel="stylesheet" href="css/magnific-popup.css">
 
+<!-- Toggle JS -->
+	<script>
+		function toggler() {
+			$(".myContent").toggle();
+		}
+	</script>
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -86,131 +92,152 @@
 						<div class="col-lg-6 col-lg-offset-6 col-xs-12 section-heading">
 							<h1 style="margin-left:-90px;"><b>Ayush Jha</b></h1>
 						</div>
-						<div class="col-sm-12 col-xs-12">
-							<div class="row">
-									<p>Hello! welcome to my portfolio site. I'm always updating things here, please stop by often! I'm currently working as an Email/ Front-end developer at <a href="https://pierryinc.com/">Pierry Inc.</a>, a Salesforce Marketing Cloud digital marketing company, located in Redwood City, CA. I've had the opportunity to work on email-marketing projects for clients like
+						<div class="col-lg-6 col-lg-offset-6 col-xs-12 section-heading">
+							<p onclick="toggler('myContent');" style="margin-left:-20px;"><i class="fa fa-sort-desc fa-5x" aria-hidden="true"></i></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- HIDDEN ELEMENTS -->
+		<div class="container-fluid">
+			<div class="col-sm-12 col-xs-12">
+				<div id="hidden" class="row myContent">
+					<!-- ADD CONTENT -->
+
+							<!-- .fh5co-section -->
+							<div class="fh5co-section fh5co-works">
+								<div class="col-sm-12 col-xs-12">
+									<div class="row">
+										<p>Hello! welcome to my portfolio site. I'm always updating things here, please stop by often! I'm currently working as an Email/ Front-end developer at <a href="https://pierryinc.com/">Pierry Inc.</a>, a Salesforce Marketing Cloud digital marketing company, located in Redwood City, CA. I've had the opportunity to work on email-marketing projects for clients like
 										<a href="images/email_marketing/alo_yoga_black_friday.jpg" class="image-popup">Alo Yoga</a>
 										<a href="images/email_marketing/naturebox_black_friday.jpg" class="image-popup">NatureBox</a>
 										<a href="images/email_marketing/kqed_fundraiser_mobile.jpg" class="image-popup">KQED</a>
 										<!-- <a href="images/img_1-410x340.jpg" class="image-popup" title="Title Of Work Here"><img src="images/img_1-410x340.jpg" alt="Image" class="img-responsive"></a> -->
 										<br><br>
-									I'm a full-stack web developer with <code>MEAN</code> stack and <code>Ruby on Rails</code> framework experience. I also have prior experience as a QA automation developer specializing in <code>JAVA</code>. <br><br>
-									Feel free to <a href="mailto:jha.ayush85@gmail.com" target="_top">contact me</a> or checkout my:
-									<a href="https://github.com/jha-ayush">Github <img src="images/Octocat-45x41.png" alt="Github"></a>
-									<a href="https://www.linkedin.com/in/jhaayush">LinkedIn <img src="images/LinkedIn-35x35.png" alt="LinkedIn"></a>
-									<a href="#">Résumé <img src="images/pdf_icon-40x40.png" alt="Résumé"></a>
-									</p>
+										I'm a full-stack web developer with <code>MEAN</code> stack and <code>Ruby on Rails</code> framework experience. I also have prior experience as a QA automation developer specializing in <code>JAVA</code>. <br><br>
+										Feel free to <a href="mailto:jha.ayush85@gmail.com" target="_top">contact me</a> or checkout my:
+										<a href="https://github.com/jha-ayush">Github <img src="images/Octocat-45x41.png" alt="Github"></a>
+										<a href="https://www.linkedin.com/in/jhaayush">LinkedIn <img src="images/LinkedIn-35x35.png" alt="LinkedIn"></a>
+										<a href="#">Résumé <img src="images/pdf_icon-40x40.png" alt="Résumé"></a>
+										</p>
+									</div>
+								</div>
 							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 
-		<div class="fh5co-section fh5co-works">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-lg-6 col-lg-offset-6 col-xs-12 section-heading">
-						<h1>PROJECTS</h1>
-					</div>
-					<div class="col-sm-12 col-xs-12">
-						<div class="row">
-							<div class="clearfix visible-md-block"></div>
-								<div class="col-md-4 col-sm-12 col-xs-12 work animate-box">
-									<a href="https://jha-ayush.github.io/KDN_Portfolio/" class="image-popup" title="Kambata Development Network"><img src="images/kdn.png" alt="Kambata Development Network" class="img-responsive">
-									<div class="overlay">
-										<b>Kambata Development Network</b>
-									</div></a>
-								</div>
-							<div class="clearfix visible-md-block"></div>
-								<div class="col-md-4 col-sm-12 col-xs-12 work animate-box">
-									<a href="https://jha-ayush.github.io/Tanja-Zink_Portfolio/" class="image-popup" title="Tanja Zink Portfolio"><img src="images/tanja_zink.png" alt="Tanja Zink Portfolio" class="img-responsive">
-									<div class="overlay">
-										<b>Tanja Zink Portfolio</b>
-									</div></a>
-								</div>
-							<div class="clearfix visible-md-block"></div>
-								<div class="col-md-4 col-sm-12 col-xs-12 work animate-box">
-									<a href="https://bluelemur-recipes.herokuapp.com/" target="_blank" class="image-popup" title="Rails Recipe Box"><img src="images/rails_recipe-box.png" alt="Rails Recipe Box" class="img-responsive">
-									<div class="overlay">
-										<b>Rails Recipe Box</b>
-									</div></a>
-								</div>
-							<div class="clearfix visible-md-block"></div>
-								<div class="col-md-4 col-sm-12 col-xs-12 work animate-box">
-									<a href="https://gentle-ocean-15832.herokuapp.com/" target="_blank" class="image-popup" title="CHŌRUS Rails web app"><img src="images/rails_chorus.png" alt="CHŌRUS Rails web app" class="img-responsive">
-									<div class="overlay">
-										<b>CHŌRUS - Housemates Rails app</b>
-									</div></a>
-								</div>
-							<div class="clearfix visible-md-block"></div>
-								<div class="col-md-4 col-sm-12 col-xs-12 work animate-box">
-									<a href="https://bluelemur-medreview.herokuapp.com/" target="_blank" class="image-popup" title="AIDS Medication Review App"><img src="images/mean_medication-review.png" alt="AIDS Medication Review App" class="img-responsive">
-									<div class="overlay">
-										AIDS Medication Review
-									</div></a>
-								</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- END .fh5co-section -->
-
-
-		<!-- Mobile Hide -->
-		<div class="fh5co-section fh5co-works mobile-hide">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-lg-6 col-lg-offset-6 col-xs-12 section-heading">
-						<h1>DEMO</h1>
-					</div>
-					<div class="col-md-12 col-sm-12 col-xs-12">
-								<div class="col-md-9 col-md-offset-3 col-sm-12 col-xs-12 work animate-box mobile-hide">
-									<!-- CARD FLIP -->
-									<div class="fh5co-section mobile-hide">
-										<div class="container">
+							<div class="fh5co-section fh5co-works">
+								<div class="container-fluid">
+									<div class="row">
+										<div class="col-lg-6 col-lg-offset-6 col-xs-12 section-heading">
+											<h1>PROJECTS</h1>
+										</div>
+										<div class="col-sm-12 col-xs-12">
 											<div class="row">
-												<div class="col-md-4 col-sm-4 col-xs-4">
-													<div class="flip3D_Y">
-														<div class="back_Y">
-															<h4>
-																<code>
-																	Hello, from Blue Lemur!
-																</code>
-															</h4>
-															<img src="images/blue_lemur-214x235.png"  width="200" height="auto" class="img-responsive" alt="Images">
-														</div>
-														<div class="front_Y">
-															<img src="images/polygon-1-1920x1080.png"  width="200" height="auto" class="img-responsive" alt="Images">
-														</div>
+												<div class="clearfix visible-md-block"></div>
+													<div class="col-md-4 col-sm-12 col-xs-12 work animate-box">
+														<a href="https://jha-ayush.github.io/KDN_Portfolio/" class="image-popup" title="Kambata Development Network"><img src="images/kdn.png" alt="Kambata Development Network" class="img-responsive">
+														<div class="overlay">
+															<b>Kambata Development Network</b>
+														</div></a>
 													</div>
-												</div>
-												<div class="col-md-6 col-sm-6 col-xs-6">
-													<div class="flip3D_X">
-														<div class="back_X">
-															<h4>
-																<code>
-																	Hello, from Blue Lemur!
-																</code>
-															</h4>
-															<img src="images/blue_lemur-214x235.png"  width="200" height="auto" class="img-responsive" alt="Images">
-														</div>
-														<div class="front_X">
-															<img src="images/polygon-2-1920x1080.png"  width="200" height="auto" class="img-responsive" alt="Images">
-														</div>
+												<div class="clearfix visible-md-block"></div>
+													<div class="col-md-4 col-sm-12 col-xs-12 work animate-box">
+														<a href="https://jha-ayush.github.io/Tanja-Zink_Portfolio/" class="image-popup" title="Tanja Zink Portfolio"><img src="images/tanja_zink.png" alt="Tanja Zink Portfolio" class="img-responsive">
+														<div class="overlay">
+															<b>Tanja Zink Portfolio</b>
+														</div></a>
 													</div>
-												</div>
+												<div class="clearfix visible-md-block"></div>
+													<div class="col-md-4 col-sm-12 col-xs-12 work animate-box">
+														<a href="https://bluelemur-recipes.herokuapp.com/" target="_blank" class="image-popup" title="Rails Recipe Box"><img src="images/rails_recipe-box.png" alt="Rails Recipe Box" class="img-responsive">
+														<div class="overlay">
+															<b>Rails Recipe Box</b>
+														</div></a>
+													</div>
+												<div class="clearfix visible-md-block"></div>
+													<div class="col-md-4 col-sm-12 col-xs-12 work animate-box">
+														<a href="https://gentle-ocean-15832.herokuapp.com/" target="_blank" class="image-popup" title="CHŌRUS Rails web app"><img src="images/rails_chorus.png" alt="CHŌRUS Rails web app" class="img-responsive">
+														<div class="overlay">
+															<b>CHŌRUS - Housemates Rails app</b>
+														</div></a>
+													</div>
+												<div class="clearfix visible-md-block"></div>
+													<div class="col-md-4 col-sm-12 col-xs-12 work animate-box">
+														<a href="https://bluelemur-medreview.herokuapp.com/" target="_blank" class="image-popup" title="AIDS Medication Review App"><img src="images/mean_medication-review.png" alt="AIDS Medication Review App" class="img-responsive">
+														<div class="overlay">
+															AIDS Medication Review
+														</div></a>
+													</div>
 											</div>
 										</div>
 									</div>
-									<!-- // CARD FLIP -->
 								</div>
-					</div>
+							</div>
+							<!-- END .fh5co-section -->
+							<!-- Mobile Hide -->
+							<div class="fh5co-section fh5co-works mobile-hide">
+								<div class="container-fluid">
+									<div class="row">
+										<div class="col-lg-6 col-lg-offset-6 col-xs-12 section-heading">
+											<h1>DEMO</h1>
+										</div>
+										<div class="col-md-12 col-sm-12 col-xs-12">
+													<div class="col-md-12 col-sm-12 col-xs-12 work animate-box mobile-hide">
+														<!-- CARD FLIP -->
+														<div class="fh5co-section mobile-hide">
+															<div class="container">
+																<div class="row">
+																	<div class="col-md-4 col-sm-4 col-xs-4">
+																		<div class="flip3D_Y">
+																			<div class="back_Y">
+																				<h4>
+																					<code>
+																						Hello, from Blue Lemur!
+																					</code>
+																				</h4>
+																				<img src="images/blue_lemur-214x235.png"  width="200" height="auto" class="img-responsive" alt="Images">
+																			</div>
+																			<div class="front_Y">
+																				<img src="images/polygon-1-1920x1080.png"  width="200" height="auto" class="img-responsive" alt="Images">
+																			</div>
+																		</div>
+																	</div>
+																	<div class="col-md-6 col-sm-6 col-xs-6">
+																		<div class="flip3D_X">
+																			<div class="back_X">
+																				<h4>
+																					<code>
+																						Hello, from Blue Lemur!
+																					</code>
+																				</h4>
+																				<img src="images/blue_lemur-214x235.png"  width="200" height="auto" class="img-responsive" alt="Images">
+																			</div>
+																			<div class="front_X">
+																				<img src="images/polygon-2-1920x1080.png"  width="200" height="auto" class="img-responsive" alt="Images">
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<!-- // CARD FLIP -->
+													</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- END Mobile Hide -->
+
+
+
+					<!-- //END ADD CONTENT -->
 				</div>
 			</div>
 		</div>
-		<!-- END Mobile Hide -->
+		<!-- //END HIDDEN ELEMENTS -->
+
 
 
 		<div class="fh5co-section fh5co-works">
