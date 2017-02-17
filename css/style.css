@@ -615,10 +615,10 @@ textarea.form-control {
 
 }
 
-/*@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   #card-intro {
     box-shadow: none;
-  }*/
+  }
 }
 /*// Custom Stylesheets*/
 
