@@ -1,8 +1,6 @@
 ;(function () {
-	
+
 	'use strict';
-
-
 
 	var isMobile = {
 		Android: function() {
@@ -32,20 +30,20 @@
 
 			$(window).stellar({
 				horizontalScrolling: false,
-				hideDistantElements: false, 
+				hideDistantElements: false,
 				responsive: true
 			});
-			
-		}	
+
+		}
 	};
 
-	
+
 	var contentWayPoint = function() {
 		var i = 0;
 		$('.animate-box').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('animated-fast') ) {
-				
+
 				i++;
 
 				$(this.element).addClass('item-animate');
@@ -68,9 +66,9 @@
 							el.removeClass('item-animate');
 						},  k * 100, 'easeInOutExpo' );
 					});
-					
+
 				}, 100);
-				
+
 			}
 
 		} , { offset: '85%' } );
@@ -78,7 +76,7 @@
 
 
 
-	
+
 	$(function(){
 		parallax();
 		contentWayPoint();
