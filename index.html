@@ -1,27 +1,15 @@
-
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!DOCTYPE HTML>
+<html>
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>BlueLemur</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="favicon.ico">
+
 	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
-
-	<!-- Bootstrap CDN (optional)-->
-	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css" rel="stylesheet" integrity="sha384-awusxf8AUojygHf2+joICySzB780jVvQaVCAt1clU3QsyAitLGul28Qxb2r1e5g+" crossorigin="anonymous">
-
 	<!-- Fontawesome CDN -->
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -31,19 +19,6 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
-	<!-- Require CSS file -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<!-- Require SCSS file -->
-	<link rel="stylesheet" type="text/css" href="sass/style.scss">
-	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-
-<!-- Toggle JS -->
-	<script>
-		function toggler() {
-			$(".myContent").toggle();
-		}
-	</script>
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -52,244 +27,290 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+	<!-- Toggle JS -->
+	<script>
+		function toggler() {
+			$(".myContent").toggle();
+		}
+	</script>
+
 	</head>
-	<body style="background-color:#4682B4;" data-stellar-background-ratio="0.5">
+	<body>
 
-		<nav style="border-radius:0;" class="navbar navbar-inverse">
-		  <div class="container-fluid">
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      <a class="navbar-brand" href="index.html">BlueLemur</a>
-		    </div>
+	<!-- <div class="col-lg-12 col-xs-12 section-heading">
+			<p style="text-align:center;"><i onclick="toggler('myContent');" class="fa fa-sort-desc fa-5x" aria-hidden="true"></i></p>
+		</div> -->
 
-		    <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-		      <ul class="nav navbar-nav">
-		        <li class="active"><a href="#">LINK <span class="sr-only">(current)</span></a></li>
-		        <li><a href="#">LINK</a></li>
-		      </ul>
-		    </div> -->
-		  </div>
-		</nav>
+	<div class="fh5co-loader"></div>
 
-	<!-- <div id="fh5co-header" style="background-image: url(images/pfeiffer_beach_bigSur5184x1649.jpg);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="bio-photo text-center" id="profilePhoto">
-			<a href="https://jha-ayush.github.io/BlueLemur"><img src="images/ProfilePhoto_184x184.png" alt="Profile Photo"></a>
-		</div>
-	</div> -->
-
-
-	<div class="bio-photo text-center">
-		<a href="https://jha-ayush.github.io/BlueLemur"><img id="profilePhoto" src="images/ProfilePhoto_184x184.png" alt="Profile Photo"></a>
-	</div>
-
-	<div id="fh5co-main">
-
-			<div class="container">
-				<div class="row">
-						<div class="col-lg-12 col-xs-12 section-heading">
-							<h1 style="text-align:center;"><b>Ayush Jha</b></h1>
-						</div>
-						<!-- <div class="col-lg-12 col-xs-12 section-heading">
-							<p style="text-align:center;"><i onclick="toggler('myContent');" class="fa fa-sort-desc fa-5x" aria-hidden="true"></i></p>
-						</div> -->
-				</div>
-			</div>
-
-			<!-- .fh5co-section -->
-			<div class="container">
-				<div class="row">
-					<div class="fh5co-section fh5co-works">
-						<div class="col-sm-12 col-xs-12">
-							<section class="row">
-								<p>Hello! welcome to my portfolio site. I'm always updating things here, please stop by often! <br>
-									I'm currently working as a Front-end &amp; Email developer at <a href="https://pierryinc.com/">Pierry Inc.</a>&mdash; a Salesforce Marketing Cloud digital marketing startup, located in Redwood City, CA. I currently work with the Marketing &amp; Creative departments to execute email campaigns under strict CAN-SPAM regulatory guidelines, code landing pages for clients, execute segmentation plans and setup A/B testing using Salesforce Marketing Cloud. I've had the opportunity to work on email-marketing projects for clients like <em>NetJets, KQED, Alo Yoga, NatureBox, Roku, Smuckers&mdash;Folgers, JIF, Crisco, Dunkin' Donuts &amp; San Jose Earthquakes</em> and other clients seeking Salesforce Marketing Cloud support. I'm certified as a Salesforce Marketing Cloud Email Specialist (2016) and am working towards getting certified as a Salesforce Marketing Cloud Consultant &amp; Pardot Specialist.</p>
-								<!-- <a href="images/img_1-410x340.jpg" class="image-popup" title="Title Of Work Here"><img src="images/img_1-410x340.jpg" alt="Image" class="img-responsive"></a> -->
-
-								<p>I'm a full-stack web developer with <code>MEAN</code> stack and <code>Ruby on Rails</code> framework experience. I have prior experience as a QA automation developer specializing in <code>JAVA</code>. I also work part-time as a freelance developer working with small businesses and individuals.<br><br>
-								Feel free to <a href="mailto:jha.ayush85@gmail.com" target="_top">contact me</a> or checkout my:
-								<a href="https://github.com/jha-ayush">Github <img src="images/Octocat-45x41.png" alt="Github"></a>
-								<a href="https://www.linkedin.com/in/jhaayush">LinkedIn <img src="images/LinkedIn-35x35.png" alt="LinkedIn"></a>
-								<a href="#">Résumé <img src="images/pdf_icon-40x40.png" alt="Résumé"></a>
-								</p>
-							</section>
-						</div>
-					</div>
-				</div>
-			</div>
-
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
 		<div class="container">
-			<div class="col-sm-12 col-xs-12">
-				<div class="fh5co-section fh5co-works">
-					<!-- ADD CONTENT -->
+			<div class="fh5co-top-logo">
+				<div id="fh5co-logo"><a href="index.html">BlueLemur</a></div>
+			</div>
+			<!-- <div class="fh5co-top-menu menu-1 text-center">
+				<ul>
+					<li><a href="work.html">Work</a></li>
+					<li><a href="about.html">Profile</a></li>
+				</ul>
+			</div> -->
+			<div class="fh5co-top-social menu-1 text-right">
+				<ul class="fh5co-social">
+					<li><a href="mailto:jha.ayush85@gmail.com" target="_top"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+					<li><a href="https://s3-us-west-1.amazonaws.com/blue-lemur/Jha_Ayush_Resume.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/jhaayush" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+					<li><a href="https://github.com/jha-ayush" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
-							<!-- Mobile Hide -->
-							<section style="margin-bottom:400px;" class="fh5co-section fh5co-works mobile-hide">
-								<div class="container-fluid">
-									<div class="row">
-										<div class="col-md-12 col-sm-12 col-xs-12 work animate-box">
-											<div class="col-lg-12 col-xs-12 section-heading">
-												<h1 style="text-align:center;">EMAIL Browser/Mobile Templates</h1>
-											</div>
-														<!-- CARD FLIP -->
-														<div class="fh5co-section">
-															<div class="container">
-																<div class="row">
-																	<div class="col-md-3 col-sm-3 col-xs-12">
-																		<div class="flip3D_Y">
-																			<div class="back_Y">
-																				<img src="images/email_marketing/NetJets_mobile.png"  width="200" height="auto" class="img-responsive" alt="Images">
-																			</div>
-																			<div class="front_Y">
-																				<img src="images/email_marketing/NetJets_browser.png"  width="200" height="auto" class="img-responsive" alt="Images">
-																			</div>
-																		</div>
-																	</div>
+	<div id="fh5co-author" class="fh5co-bg-section">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-9 col-md-offset-2 text-center fh5co-heading">
+					<h2>Ayush Jha</h2>
+					<h4><em>Full-stack Web Developer &amp; UX designer</em></h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-md-offset-5">
+					<a href="https://jha-ayush.github.io/BlueLemur"><img id="profilePhoto" src="images/profile_photo_200x273.jpg" alt="Profile Photo" class="img-responsive"></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 desc animate-box">
+					<p>Welcome to my portfolio site. I'm always updating things here, please stop by often!</p>
+					<p>I'm currently working as a Front-end &amp; Email developer at <a href="https://pierryinc.com/">Pierry Inc.</a>&mdash; a Salesforce Marketing Cloud digital marketing startup, located in Redwood City, CA. I currently work with the Marketing &amp; Creative departments to execute email campaigns under strict CAN-SPAM regulatory guidelines and code landing pages for clients. I've had the opportunity to work on email-marketing projects for clients like <em>
+						<a href="https://www.netjets.com/Home/">NetJets</a>,
+						<a href="http://www.kqed.org/">KQED</a>,
+						<a href="https://www.aloyoga.com/">Alo Yoga</a>,
+						<a href="https://naturebox.com/">NatureBox</a>,
+						<a href="https://www.roku.com/">Roku</a>,
+						<a href="http://www.smuckers.com/">Smucker's</a>,
+						<a href="http://www.folgerscoffee.com/">Folgers Coffee</a>,
+						<a href="http://www.crisco.com/">Crisco</a>,
+						<a href="https://www.dunkindonuts.com/en">Dunkin' Donuts</a>,
+						<a href="https://www.sjearthquakes.com/">San Jose Earthquakes</a>.
+					</em></p>
 
-																	<div class="col-md-3 col-sm-3 col-xs-12">
-																		<div class="flip3D_Y">
-																			<div class="back_Y">
-																				<img src="images/email_marketing/NatureBox_mobile.png"  width="200" height="auto" class="img-responsive" alt="Images">
-																			</div>
-																			<div class="front_Y">
-																				<img src="images/email_marketing/NatureBox_browser.png"  width="200" height="auto" class="img-responsive" alt="Images">
-																			</div>
-																		</div>
-																	</div>
-
-																	<div class="col-md-3 col-sm-3 col-xs-12">
-																		<div class="flip3D_Y">
-																			<div class="back_Y">
-																				<img src="images/email_marketing/AloYoga_mobile.png"  width="200" height="auto" class="img-responsive" alt="Images">
-																			</div>
-																			<div class="front_Y">
-																				<img src="images/email_marketing/AloYoga_browser.png"  width="200" height="auto" class="img-responsive" alt="Images">
-																			</div>
-																		</div>
-																	</div>
-
-																	<div class="col-md-3 col-sm-3 col-xs-12">
-																		<div class="flip3D_Y">
-																			<div class="back_Y">
-																				<img src="images/email_marketing/Smuckers_Folgers_mobile.png"  width="200" height="auto" class="img-responsive" alt="Images">
-																			</div>
-																			<div class="front_Y">
-																				<img src="images/email_marketing/Smuckers_Folgers_browser.png"  width="200" height="auto" class="img-responsive" alt="Images">
-																			</div>
-																		</div>
-																	</div>
-
-																	<!-- <div class="col-md-4 col-sm-4 col-xs-4">
-																		<div class="flip3D_X">
-																			<div class="back_X">
-																				<img src="images/email_marketing/Smuckers_Folgers_mobile.png"  width="200" height="auto" class="img-responsive" alt="Images">
-																			</div>
-																			<div class="front_X">
-																				<img src="images/email_marketing/AloYoga_browser.jpg"  width="300" height="auto" class="img-responsive" alt="Images">
-																			</div>
-																		</div>
-																	</div> -->
-
-
-																</div>
-															</div>
-														</div>
-														<!-- // CARD FLIP -->
-										</div>
-									</div>
-								</div>
-							</section>
-							<!-- END Mobile Hide -->
-
-							<section class="fh5co-section fh5co-works">
-								<div class="container">
-									<div class="row">
-										<div class="col-lg-12 col-xs-12 section-heading">
-											<h1 style="text-align:center;">Static Sites</h1>
-										</div>
-										<div class="col-md-12 col-sm-12 col-xs-12">
-											<div class="row">
-												<div class="clearfix visible-md-block"></div>
-													<div class="col-md-6 col-sm-12 col-xs-12 work animate-box">
-														<a href="https://jha-ayush.github.io/kdn/" target="_blank" title="Kambata Development Network"><img src="images/kdn.png" alt="Kambata Development Network" class="img-responsive">
-														<div class="overlay">
-															<b>Kambata Development Network</b>
-														</div></a>
-													</div>
-												<div class="clearfix visible-md-block"></div>
-													<div class="col-md-6 col-sm-12 col-xs-12 work animate-box">
-														<a href="https://jha-ayush.github.io/TanjaZink/" target="_blank" title="Tanja Zink Portfolio"><img src="images/tanja_zink.png" alt="Tanja Zink Portfolio" class="img-responsive">
-														<div class="overlay">
-															<b>Tanja Zink Portfolio</b>
-														</div></a>
-													</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</section>
-
-							<section class="fh5co-section fh5co-works">
-								<div class="container-fluid">
-									<div class="row">
-										<div class="col-lg-12 col-xs-12 section-heading">
-												<h1 style="text-align:center;">Web Apps</h1>
-										</div>
-										<div class="col-md-12 col-sm-12 col-xs-12">
-											<div class="row">
-												<div class="clearfix visible-md-block"></div>
-													<div class="col-md-4 col-sm-12 col-xs-12 work animate-box">
-														<a href="https://bluelemur-recipes.herokuapp.com/" target="_blank" title="Rails Recipe Box"><img src="images/rails_recipe-box.png" alt="Rails Recipe Box" class="img-responsive">
-														<div class="overlay">
-															<b>Rails Recipe Box</b>
-														</div></a>
-													</div>
-												<div class="clearfix visible-md-block"></div>
-													<div class="col-md-4 col-sm-12 col-xs-12 work animate-box">
-														<a href="https://gentle-ocean-15832.herokuapp.com/" target="_blank" title="CHŌRUS Rails web app"><img src="images/rails_chorus.png" alt="CHŌRUS Rails web app" class="img-responsive">
-														<div class="overlay">
-															<b>CHŌRUS - Housemates Rails app</b>
-														</div></a>
-													</div>
-												<div class="clearfix visible-md-block"></div>
-													<div class="col-md-4 col-sm-12 col-xs-12 work animate-box">
-														<a href="https://bluelemur-medreview.herokuapp.com/" target="_blank" title="AIDS Medication Review App"><img src="images/mean_medication-review.png" alt="AIDS Medication Review App" class="img-responsive">
-														<div class="overlay">
-															AIDS Medication Review MEAN stack web app
-														</div></a>
-													</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</section>
-							<!-- END .fh5co-section -->
-
-					<!-- //END ADD CONTENT -->
+					<p>I'm a full-stack web developer with <code>MEAN</code> stack and <code>Ruby on Rails</code> framework experience. I have prior experience as a QA automation developer specializing in <code>JAVA</code>. I also work part-time as a freelance developer working with small businesses and individuals.</p>
 				</div>
 			</div>
 		</div>
+	</div>
 
+	<section id="fh5co-work">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center fh5co-heading">
+					<h2>Email Templates</h2>
+				</div>
+				<div class="col-md-12 text-center fh5co-heading">
+					<h3>Browser View</h3>
+					<div class="col-md-3 col-xs-12 text-center animate-box">
+						<a class="work" href="portfolio_detail.html">
+							<div class="work-grid" style="background-image:url(images/email_marketing/AloYoga_browser.png);">
+								<div class="inner">
+									<div class="desc">
+									<h3>Alo Yoga</h3>
+									<span class="cat">Email-Marketing</span>
+								</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 col-xs-12 text-center animate-box">
+						<a class="work" href="portfolio_detail.html">
+							<div class="work-grid" style="background-image:url(images/email_marketing/NatureBox_browser.png);">
+								<div class="inner">
+									<div class="desc">
+										<h3>Nature Box</h3>
+										<span class="cat">Email-Marketing</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 col-xs-12 text-center animate-box">
+						<a class="work" href="portfolio_detail.html">
+							<div class="work-grid" style="background-image:url(images/email_marketing/NetJets_browser.png);">
+								<div class="inner">
+									<div class="desc">
+										<h3>Net Jets</h3>
+										<span class="cat">Email-Marketing</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 col-xs-12 text-center animate-box">
+						<a class="work" href="portfolio_detail.html">
+							<div class="work-grid" style="background-image:url(images/email_marketing/Smuckers_Folgers_browser.png);">
+								<div class="inner">
+									<div class="desc">
+										<h3>Folgers Coffee</h3>
+										<span class="cat">Email-Marketing</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-12 text-center fh5co-heading">
+					<h3>Mobile View</h3>
+					<div class="col-md-3 col-xs-12 text-center animate-box">
+						<a class="work" href="portfolio_detail.html">
+							<div class="work-grid" style="background-image:url(images/email_marketing/AloYoga_mobile.png);">
+								<div class="inner">
+									<div class="desc">
+									<h3>Alo Yoga</h3>
+									<span class="cat">Email-Marketing</span>
+								</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 col-xs-12 text-center animate-box">
+						<a class="work" href="portfolio_detail.html">
+							<div class="work-grid" style="background-image:url(images/email_marketing/NatureBox_mobile.png);">
+								<div class="inner">
+									<div class="desc">
+										<h3>Nature Box</h3>
+										<span class="cat">Email-Marketing</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 col-xs-12 text-center animate-box">
+						<a class="work" href="portfolio_detail.html">
+							<div class="work-grid" style="background-image:url(images/email_marketing/NetJets_mobile.png);">
+								<div class="inner">
+									<div class="desc">
+										<h3>Net Jets</h3>
+										<span class="cat">Email-Marketing</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 col-xs-12 text-center animate-box">
+						<a class="work" href="portfolio_detail.html">
+							<div class="work-grid" style="background-image:url(images/email_marketing/Smuckers_Folgers_mobile.png);">
+								<div class="inner">
+									<div class="desc">
+										<h3>Folgers Coffee</h3>
+										<span class="cat">Email-Marketing</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
 
-		<section class="fh5co-section fh5co-works">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-sm-12 col-xs-12">
-							<small><p>&copy; 2016 <a href="http://bluelemur.co/" target="_blank">Blue Lemur<img src="images/blue_lemur-107x118.png" alt="BlueLemur"></a></small>
+				<div class="col-md-12 text-center fh5co-heading">
+					<h2>Static Sites</h2>
+					<div class="col-md-6 col-xs-12 text-center animate-box">
+						<a class="work" target="_blank" href="https://jha-ayush.github.io/kdn/">
+							<div class="work-grid" style="background-image:url(images/projects/kdn.png);">
+								<div class="inner">
+									<div class="desc">
+									<h3>Kambata Development Network</h3>
+									<span class="cat">Full site build</span>
+								</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 col-xs-12 text-center animate-box">
+						<a class="work" target="_blank" href="https://jha-ayush.github.io/TanjaZink/">
+							<div class="work-grid" style="background-image:url(images/projects/tanja_zink.png);">
+								<div class="inner">
+									<div class="desc">
+										<h3>Tanja Zink Portfolio</h3>
+										<span class="cat">Under Construction...</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-12 text-center fh5co-heading">
+					<h2>Web Apps</h2>
+					<div class="col-md-4 col-xs-12 text-center animate-box">
+						<a class="work" target="_blank" href="https://bluelemur-recipes.herokuapp.com/">
+							<div class="work-grid" style="background-image:url(images/projects/rails_recipe-box.png);">
+								<div class="inner">
+									<div class="desc">
+									<h3>Recipe Box</h3>
+									<span class="cat">Ruby on Rails Web App</span>
+								</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 col-xs-12 text-center animate-box">
+						<a class="work" target="_blank" href="https://gentle-ocean-15832.herokuapp.com/">
+							<div class="work-grid" style="background-image:url(images/projects/rails_chorus.png);">
+								<div class="inner">
+									<div class="desc">
+										<h3>CHŌRUS</h3>
+										<span class="cat">Ruby on Rails Web App</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 col-xs-12 text-center animate-box">
+						<a class="work" target="_blank" href="https://bluelemur-medreview.herokuapp.com/">
+							<div class="work-grid" style="background-image:url(images/projects/mean_medication-review.png);">
+								<div class="inner">
+									<div class="desc">
+										<h3>AIDS Medication Review</h3>
+										<span class="cat">MEAN Stack Web App</span>
+									</div>
+								</div>
+							</div>
+						</a>
 					</div>
 				</div>
 			</div>
-		</section>
-		<!-- END .fh5co-section -->
+		</div>
+	</section>
+
+	<!-- <div class="col-md-3 col-sm-3 col-xs-12">
+	<div class="flip3D_Y">
+		<div class="back_Y">
+			<img src="images/email_marketing/NetJets_mobile.png"  width="200" height="auto" class="img-responsive" alt="Images">
+		</div>
+		<div class="front_Y">
+			<img src="images/email_marketing/NetJets_browser.png"  width="200" height="auto" class="img-responsive" alt="Images">
+		</div>
+	</div>
+</div> -->
 
 
+
+
+	<footer id="fh5co-footer" role="contentinfo">
+		<div class="container">
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy; 2016 <a href="http://bluelemur.co/" target="_blank">BlueLemur</a></small>
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</footer>
 	</div>
 
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+	</div>
 
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
@@ -297,18 +318,9 @@
 	<script src="js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
 	<script src="js/bootstrap.min.js"></script>
-
-	<!-- Stellar -->
-	<script src="js/jquery.stellar.min.js"></script>
-
 	<!-- Waypoints -->
 	<script src="js/jquery.waypoints.min.js"></script>
-
-	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
-
-	<!-- MAIN JS -->
+	<!-- Main -->
 	<script src="js/main.js"></script>
 
 	</body>
