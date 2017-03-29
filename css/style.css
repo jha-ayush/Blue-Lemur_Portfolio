@@ -1311,6 +1311,7 @@ blockquote .person cite {
       -ms-transition: all 1.5s ease;
           transition: all 1.5s ease;
   margin-bottom: 30px;
+  box-shadow: 1px 1px 1px 2px #333333;
 }
 #profilePhoto:hover{
   border-radius: 50%;
@@ -1325,19 +1326,17 @@ h4 {
 
 /* Card Flip - Y-axis*/
 .flip3D_Y {
-  width:200px;
   height:auto;
-  float:left;
+  color: #ffffff;
   text-align: center;
-  color: black;
-  font-family: monospace;
-  font-weight: bold;
+  font-family: 'Space Mono', monospace;
 }
 .flip3D_Y > .front_Y{
     position:absolute;
-    transform: perspective( 200px ) rotateY( 0deg );
-    background:#FFDEAD;
-    width:200px;
+    transform: perspective( 300px ) rotateY( 0deg );
+    background:#436D99;
+    color: #ffffff;
+    width:300px;
     height:auto;
     border-radius: 12px;
     backface-visibility: hidden;
@@ -1345,34 +1344,34 @@ h4 {
 }
 .flip3D_Y > .back_Y{
     position:absolute;
-    transform: perspective( 200px ) rotateY( 180deg );
-    background: #FFDEAD;
-    color: #323232;
-    width:200px;
+    transform: perspective( 600px ) rotateY( 180deg );
+    background: #436D99;
+    color: #ffffff;
+    width:600px;
     height:auto;
     border-radius: 12px;
     backface-visibility: hidden;
     transition: transform .5s linear 0s;
 }
 .flip3D_Y:hover > .front_Y{
-    transform: perspective( 200px ) rotateY( -180deg );
+    transform: perspective( 300px ) rotateY( -180deg );
 }
 .flip3D_Y:hover > .back_Y{
-    transform: perspective( 200px ) rotateY( 0deg );
+    transform: perspective( 600px ) rotateY( 0deg );
 }
 .front_Y {
-  font-size: 25px;
-  font-family: "Allerta Stencil";
+  font-size: 1.8em;
+  font-family: 'Space Mono', monospace;
 }
 .back_Y {
-  font-size: 25px;
+  font-size: 1em;
   color: #282828;
-  font-family: "Allerta Stencil";
+  font-family: 'Space Mono', monospace;
 }
 /* End Card Flip  - Y-axis*/
 /* Card Flip - X-axis*/
 .flip3D_X {
-  width:200px;
+  width:500px;
   height:auto;
   float:left;
   text-align: center;
@@ -1382,9 +1381,9 @@ h4 {
 }
 .flip3D_X > .front_X{
     position:absolute;
-    transform: perspective( 200px ) rotateX( 0deg );
+    transform: perspective( 500px ) rotateX( 0deg );
     background:#FFDEAD;
-    width:200px;
+    width:500px;
     height:auto;
     border-radius: 12px;
     backface-visibility: hidden;
@@ -1392,20 +1391,20 @@ h4 {
 }
 .flip3D_X > .back_X{
     position:absolute;
-    transform: perspective( 200px ) rotateX( 180deg );
+    transform: perspective( 500px ) rotateX( 180deg );
     background: #FFDEAD;
     color: #323232;
-    width:200px;
+    width:500px;
     height:auto;
     border-radius: 12px;
     backface-visibility: hidden;
     transition: transform .5s linear 0s;
 }
 .flip3D_X:hover > .front_X{
-    transform: perspective( 200px ) rotateX( -180deg );
+    transform: perspective( 500px ) rotateX( -180deg );
 }
 .flip3D_X:hover > .back_X{
-    transform: perspective( 200px ) rotateX( 0deg );
+    transform: perspective( 500px ) rotateX( 0deg );
 }
 .front_X {
   font-size: 25px;
