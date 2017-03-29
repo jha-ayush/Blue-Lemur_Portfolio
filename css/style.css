@@ -5,6 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 /* =======================================================
 *
 * 	Template Style
@@ -113,13 +114,13 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav .fh5co-top-social {
   width: 20%;
 }
-.fh5co-nav #fh5co-logo {
-  font-size: 1.7em;
+.fh5co-nav #fh5co-logo h1 {
+  font-size: 2.0em;
   margin: 0;
   padding: 0;
   /*text-transform: uppercase;*/
   font-weight: bold;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: 'Rock Salt', cursive;
 }
 .fh5co-nav .fh5co-social {
   margin: 3px 0 0 0;
@@ -386,7 +387,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-work{
-  background: #848484;
+  background: #ffc064;
 }
 
 #fh5co-started,
@@ -572,16 +573,20 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 2em;
 }
 .fh5co-heading h2 {
-  font-size: 28px;
+  font-size: 1.7em;
   margin-bottom: 20px;
   line-height: 1.5;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  /*font-weight: bold;*/
+  /*text-transform: uppercase;*/
+  letter-spacing: 1.2px;
   color: #000;
+  font-family: 'Limelight', cursive;
+  color: #436D99;
 }
 .fh5co-heading h3 {
-  font-size: 18px;
+  font-size: 1.5em;
+  font-family: 'Cherry Cream Soda', cursive;
+  color: #000000;
 }
 .fh5co-heading p {
   font-size: 18px;
