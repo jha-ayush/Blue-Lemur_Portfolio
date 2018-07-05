@@ -1312,18 +1312,18 @@ blockquote .person cite {
 
 /*Custom*/
 #profilePhoto{
-  -webkit-transition: all 1.5s ease;
+  /* -webkit-transition: all 1.5s ease;
      -moz-transition: all 1.5s ease;
        -o-transition: all 1.5s ease;
       -ms-transition: all 1.5s ease;
-          transition: all 1.5s ease;
+          transition: all 1.5s ease; */
   margin-bottom: 30px;
   box-shadow: 1px 1px 1px 2px #333333;
 }
-#profilePhoto:hover{
+/* #profilePhoto:hover{
   border-radius: 50%;
   border: 10px solid #436D99;
-}
+} */
 
 h4 {
   font-size:1.0em;
