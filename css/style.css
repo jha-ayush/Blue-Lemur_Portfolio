@@ -460,22 +460,35 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .work {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .work .work-grid {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 200px;
+  height: 500px;
   margin-bottom: 20px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+
+.work .screenshots {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 170px;
+  margin-bottom: 80px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
 .work .work-grid .inner {
   display: table;
-  height: 200px;
+  height: 500px;
   width: 100.1%;
   opacity: 0;
   background: #fafaf8;
