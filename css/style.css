@@ -12,12 +12,21 @@
 *
 * ======================================================= */
 body {
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   font-weight: 300;
   font-size: 1.8em;
   line-height: 1.7;
-  color: #333333;
-  background: #fafaf8;
+  color: #f4f4f4;
+  background: #373737;
+}
+
+#name h1 {
+  font-size: 2.0em;
+  margin: 0;
+  padding: 0;
+  /*text-transform: uppercase;*/
+  font-weight: bold;
+  font-family: 'Rock Salt', cursive;
 }
 
 #page {
@@ -25,7 +34,7 @@ body {
   overflow-x: hidden;
   width: 100%;
   height: 100%;
-  padding-top: 6em !important;
+  padding-top: 1em !important;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -67,8 +76,8 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: #000;
-  font-family: "Montserrat", Arial, sans-serif;
+  color: #f4f4f4;
+  font-family: "Raleway", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -115,14 +124,6 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav .fh5co-top-social {
   width: 20%;
-}
-.fh5co-nav #fh5co-logo h1 {
-  font-size: 2.0em;
-  margin: 0;
-  padding: 0;
-  /*text-transform: uppercase;*/
-  font-weight: bold;
-  font-family: 'Rock Salt', cursive;
 }
 .fh5co-nav .fh5co-social {
   margin: 3px 0 0 0;
@@ -195,7 +196,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   list-style: none;
   display: inline-block;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
 }
 .fh5co-nav ul li a {
   text-transform: uppercase;
@@ -385,11 +386,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-bg-section {
-  background: #fafaf8;
+  background: #373737;
 }
 
 #fh5co-work{
-  background: #ffc064;
+  background: #c0b283;
 }
 
 #fh5co-started,
@@ -398,7 +399,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-about,
 #fh5co-contact,
 #fh5co-footer {
-  padding: 3em 0;
+  padding: 1.1em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -408,7 +409,7 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-about,
   #fh5co-contact,
   #fh5co-footer {
-    padding: 3em 0;
+    padding: 2em 0;
   }
 }
 
@@ -491,7 +492,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 500px;
   width: 100.1%;
   opacity: 0;
-  background: #fafaf8;
+  background: #f4f4f4;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -548,7 +549,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
 }
 .categories li {
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   list-style: none;
   margin-bottom: 5px;
 }
@@ -588,15 +589,15 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 2em;
 }
 .fh5co-heading h2 {
-  font-size: 1.7em;
+  font-size: 1.5em;
   margin-bottom: 20px;
   line-height: 1.5;
   /*font-weight: bold;*/
   /*text-transform: uppercase;*/
-  letter-spacing: 1.2px;
-  color: #000;
+  letter-spacing: 1.1px;
   font-family: 'Limelight', cursive;
-  color: #436D99;
+  color: #f4f4f4;
+  padding-top: 20px;
 }
 .fh5co-heading h3 {
   font-size: 1.5em;
@@ -614,7 +615,7 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 2px;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
 }
 
 .title {
@@ -1066,7 +1067,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 2px;
@@ -1284,7 +1285,7 @@ blockquote p {
   color: #666666;
 }
 blockquote .person {
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 14px;
   color: #b3b3b3;
 }
@@ -1324,19 +1325,21 @@ blockquote .person cite {
 
 
 /*Custom*/
-#profilePhoto{
-  /* -webkit-transition: all 1.5s ease;
+/* #profilePhoto{
+  -webkit-transition: all 1.5s ease;
      -moz-transition: all 1.5s ease;
        -o-transition: all 1.5s ease;
       -ms-transition: all 1.5s ease;
-          transition: all 1.5s ease; */
+          transition: all 1.5s ease;
   margin-bottom: 30px;
   box-shadow: 1px 1px 1px 2px #333333;
-}
-/* #profilePhoto:hover{
-  border-radius: 50%;
-  border: 10px solid #436D99;
 } */
+#profilePhoto{
+  width: 200px;
+  border-radius: 50%;
+  border: 10px solid #f4f4f4;
+  margin-bottom: 30px;
+}
 
 h4 {
   font-size:1.0em;

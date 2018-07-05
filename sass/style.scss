@@ -119,7 +119,7 @@ body {
 	overflow-x: hidden;
 	width: 100%;
 	height: 100%;
-	padding-top: 6em !important;
+	padding-top: 4em !important;
 	@include transition(.5s);
 	.offcanvas & {
 		overflow: hidden;
