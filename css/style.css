@@ -14,12 +14,11 @@
 body {
   font-family: "Raleway", Arial, sans-serif;
   font-weight: 300;
-  font-size: 1.8em;
+  font-size: 1.5em;
   line-height: 1.7;
   color: #f4f4f4;
-  background: #373737;
+  background: #30415D;
 }
-
 #name h1 {
   font-size: 2.0em;
   margin: 0;
@@ -28,13 +27,11 @@ body {
   font-weight: bold;
   font-family: 'Rock Salt', cursive;
 }
-
 #page {
   position: relative;
   overflow-x: hidden;
   width: 100%;
   height: 100%;
-  padding-top: 1em !important;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -72,7 +69,8 @@ a:hover, a:active, a:focus {
 p {
   margin-bottom: 20px;
   font-family: 'Raleway', sans-serif;
-  font-size: 1.3em;
+  font-size: 1.2em;
+  color: #e5e5e5;
 }
 
 h1, h2, h3, h4, h5, h6, figure {
@@ -81,7 +79,13 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 400;
   margin: 0 0 20px 0;
 }
-
+h4 {
+  color: #f4f4f4;
+  font-family: "Raleway", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+  margin: 0 0 20px 0;
+}
 ::-webkit-selection {
   color: #fff;
   background: #436D99;
@@ -104,9 +108,9 @@ h1, h2, h3, h4, h5, h6, figure {
   right: 0;
   padding: 25px 0;
   z-index: 1;
-  background: #b5cde1;
+  background: #30415D;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .fh5co-nav {
     padding: 20px 0;
   }
@@ -124,6 +128,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav .fh5co-top-social {
   width: 20%;
+}
+.fh5co-top-social {
+  margin: 20px 0 140px 0;
 }
 .fh5co-nav .fh5co-social {
   margin: 3px 0 0 0;
@@ -295,7 +302,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 30px;
 }
 .fh5co-staff img {
-  width: 170px;
+  width: 195px;
   margin-bottom: 20px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -386,20 +393,25 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-bg-section {
-  background: #373737;
+  background: #30415D;
 }
-
 #fh5co-work{
-  background: #c0b283;
+  background: #60676e;
+}
+#fh5co-about{
+  background: #1d2731;
 }
 
 #fh5co-started,
 #fh5co-author,
 #fh5co-work,
 #fh5co-about,
-#fh5co-contact,
+#fh5co-contact {
+  padding: 4.0em 0;
+  clear: both;
+}
 #fh5co-footer {
-  padding: 1.1em 0;
+  padding: 1.6em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -409,7 +421,7 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-about,
   #fh5co-contact,
   #fh5co-footer {
-    padding: 2em 0;
+    padding: 1.5em 0;
   }
 }
 
@@ -480,7 +492,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 170px;
+  height: 195px;
   margin-bottom: 80px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -589,11 +601,9 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 2em;
 }
 .fh5co-heading h2 {
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin-bottom: 20px;
   line-height: 1.5;
-  /*font-weight: bold;*/
-  /*text-transform: uppercase;*/
   letter-spacing: 1.1px;
   font-family: 'Limelight', cursive;
   color: #f4f4f4;
@@ -607,7 +617,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-heading p {
   font-size: 18px;
   line-height: 1.5;
-  color: #828282;
+  color: #f4f4f4;
 }
 .fh5co-heading span {
   display: block;
@@ -722,7 +732,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-footer {
-  background: #B5CDE1;
+  background: #30415D;
 }
 #fh5co-footer .fh5co-footer-links {
   padding: 0;
@@ -741,7 +751,7 @@ h1, h2, h3, h4, h5, h6, figure {
   text-decoration: underline;
 }
 #fh5co-footer .fh5co-widget {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-footer .fh5co-widget {
@@ -757,6 +767,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-footer .copyright .block {
   display: block;
+}
+.copyright {
+  color: #d9b310;
 }
 
 #fh5co-offcanvas {
@@ -1238,6 +1251,9 @@ h1, h2, h3, h4, h5, h6, figure {
   border-color: #436D99;
 }
 
+.row {
+  margin: 0 !important;
+}
 .row-pt-md {
   padding-top: 4em !important;
 }
@@ -1323,7 +1339,6 @@ blockquote .person cite {
 
 /*# sourceMappingURL=style.css.map */
 
-
 /*Custom*/
 /* #profilePhoto{
   -webkit-transition: all 1.5s ease;
@@ -1337,13 +1352,20 @@ blockquote .person cite {
 #profilePhoto{
   width: 200px;
   border-radius: 50%;
-  border: 10px solid #f4f4f4;
-  margin-bottom: 30px;
+  border: 2px solid #f4f4f4;
+  margin: 50px 0 30px 90px;
 }
-
+.icons {
+  color: #d9b310;
+}
+hr {
+  width: 60px;
+  height: 2px;
+  background: #f4f4f4;
+}
 h4 {
   font-size:1.0em;
-  color: #696969;
+  color: #f4f4f4;
 }
 
 
