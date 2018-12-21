@@ -28,209 +28,236 @@
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
+
+
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
 	<!-- Toggle JS -->
-	<script>
+	<!-- <script>
 		function toggler() {
 			$(".myContent").toggle();
 		}
-	</script>
+	</script> -->
 
 	</head>
 	<body>
 
+	<!-- Add Reactjs -->
+	<div id="blue_lemur_react_container"></div>
+
 	<div class="fh5co-loader"></div>
 
-		<div id="page">
-
-			<section id="fh5co-contact" class="fh5co-bg-section">
-				<div class="col-md-4 col-md-offset-4 text-center animate-box">
-					<img id="profilePhoto" src="images/profile_photo_200x273.jpg" alt="Ayush Jha" class="img-responsive">
-				</div>
-			</section>
+		<!-- <div id="page"> -->
 
 			<section id="fh5co-author" class="fh5co-bg-section">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 text-center col-xs-12 desc animate-box">
+						<img id="profilePhoto" src="images/profile_photo_200x273.jpg" alt="Ayush Jha">
+					</div>
 					<div class="col-md-4 col-md-offset-4 text-center animate-box">
 						<div class="text-center fh5co-heading">
 							<div class="col-xs-12">
 								<div id="name">
 									<h1>Ayush Jha</h1>
-									<h2>Data driven Email Developer</h2>
 								</div>
-								<div class="fh5co-top-social menu-1 text-center">
+							</div>
+						</div>
+						<div class="col-xs-12 text-center">
+        			<h2><span class="txt-type" data-wait="2000" data-words='["Marketing Developer", "Email Marketing Manager", "Email Analytics"]'></span></h2>
+						</div>
+						<div class="col-xs-12 text-center">
+							<div class="fh5co-top-social menu-1 text-center">
 										<a href="mailto:jha.ayush85@gmail.com" target="_top"><i class="fa fa-envelope fa-2x icons" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 										<a href="https://www.linkedin.com/in/jhaayush" target="_blank"><i class="fa fa-linkedin fa-2x icons" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 										<a href="https://github.com/jha-ayush" target="_blank"><i class="fa fa-github fa-2x icons" aria-hidden="true"></i></a>
-								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-
-			<section id="fh5co-about" class="fh5co-bg-section">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center col-xs-12 desc animate-box">
-						<h2 style="text-align:center;">About Me</h2>
-						<hr>
-						<p>I'm working as an Email Marketing Developer at <a href="https://invoice.2go.com/">Invoice2go</a>, a small-business invoicing SaaS company. I am responsible for the company's email communications and provide detailed metrics and analysis for the Product Growth team to drive user acquisition and user retention.</p>
-						<p>Technologies I've worked with:<br>ESPs - Cordial, Sparkpost, ExactTarget, MailChimp, SendGrid<br>Technologies used - HTML, CSS, Javascript, Ruby on Rails, Java, PHP, SQL, Sketch, Photoshop & Illustrator<br>Business processes - Agile, Kanban, Waterfall<br>Other tools - GitHub, JIRA, Confluence, Alation, Periscope, AWS S3, AWS EC2, MAMP, Heroku</p>
-					</div>
-				</div>
-			</section>
+		<!-- </div>	-->
 
 			<section id="fh5co-work" class="fh5co-bg-section">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center col-xs-12 desc animate-box">
-						<h2>Email Templates</h2>
-						<hr>
-						<p>I've previously worked on Email Marketing campaigns for <em>San Jose Earthquakes, KQED, Smucker's, NatureBox, Roku, Folgers Coffee, Dunkin' Donuts</em> under strict CAN-SPAM regulations. I've consulted and worked on Email designs, development, A/B testing, metrics reporting and analysis, landing page(s) development and email training.</p>
-					</div>
-					<div class="col-md-8 col-md-offset-2 text-center col-xs-12 fh5co-heading">
-						<h2>Browser View</h2>
-						<hr>
-						<div class="col-md-3 col-xs-12 text-center animate-box">
-							<a class="work">
-								<div class="work-grid" style="background-image:url(images/email_marketing/AloYoga_browser.jpg);">
-									<div class="inner">
-										<div class="desc">
-										<h3>Alo Yoga</h3>
-										<span class="cat">Email-Marketing</span>
-										</div>
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="col-md-3 col-xs-12 text-center animate-box">
-							<a class="work">
-								<div class="work-grid" style="background-image:url(images/email_marketing/NatureBox_browser.jpg);">
-									<div class="inner">
-										<div class="desc">
-											<h3>Nature Box</h3>
-											<span class="cat">Email-Marketing</span>
-										</div>
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="col-md-3 col-xs-12 text-center animate-box">
-							<a class="work">
-								<div class="work-grid" style="background-image:url(images/email_marketing/NetJets_browser.jpg);">
-									<div class="inner">
-										<div class="desc">
-											<h3>Net Jets</h3>
-											<span class="cat">Email-Marketing</span>
-										</div>
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="col-md-3 col-xs-12 text-center animate-box">
-							<a class="work">
-								<div class="work-grid" style="background-image:url(images/email_marketing/Smuckers_Folgers_browser.jpg);">
-									<div class="inner">
-										<div class="desc">
-											<h3>Folgers Coffee</h3>
-											<span class="cat">Email-Marketing</span>
-										</div>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="col-md-8 col-md-offset-2 text-center col-xs-12 fh5co-heading">
-						<h2>Mobile-responsive View</h2>
-						<hr>
-						<div class="col-md-3 col-xs-12 text-center animate-box">
-							<a class="work">
-								<div class="work-grid" style="background-image:url(images/email_marketing/AloYoga_mobile.jpg);">
-									<div class="inner">
-										<div class="desc">
-										<h3>Alo Yoga</h3>
-										<span class="cat">Email-Marketing</span>
-									</div>
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="col-md-3 col-xs-12 text-center animate-box">
-							<a class="work">
-								<div class="work-grid" style="background-image:url(images/email_marketing/NatureBox_mobile.jpg);">
-									<div class="inner">
-										<div class="desc">
-											<h3>Nature Box</h3>
-											<span class="cat">Email-Marketing</span>
-										</div>
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="col-md-3 col-xs-12 text-center animate-box">
-							<a class="work">
-								<div class="work-grid" style="background-image:url(images/email_marketing/NetJets_mobile.jpg);">
-									<div class="inner">
-										<div class="desc">
-											<h3>Net Jets</h3>
-											<span class="cat">Email-Marketing</span>
-										</div>
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="col-md-3 col-xs-12 text-center animate-box">
-							<a class="work">
-								<div class="work-grid" style="background-image:url(images/email_marketing/Smuckers_Folgers_mobile.jpg);">
-									<div class="inner">
-										<div class="desc">
-											<h3>Folgers Coffee</h3>
-											<span class="cat">Email-Marketing</span>
-										</div>
-									</div>
-								</div>
-							</a>
-						</div>
+					<div class="col-md-6 col-md-offset-3 text-center col-xs-12 desc animate-box">
+						<h2>Marketing HTML/CSS Templates</h2>
+						<hr />
+						<p>I've previously worked on Email Marketing campaigns for <em>San Jose Earthquakes, KQED, Smucker's, NatureBox, Roku, Folgers Coffee, Dunkin' Donuts</em>. I've consulted on and built Email designs, mobile-responsive Email templates, landing page(s), conducted and reported on A/B/n testing to drive user engagement.</p>
 					</div>
 
-					<div class="col-md-8 col-md-offset-2 text-center col-xs-12 desc animate-box">
-						<h2>Freelance Work</h2>
-						<hr>
-					</div>
-					<div class="col-md-6 text-center col-xs-12 animate-box">
-						<div class="desc">
-							<h4><a class="work" target="_blank" href="https://jha-ayush.github.io/kdn/">Kambata Development Network</a></h4>
-							<span class="cat">Non-profit 501(c)(3) focused on living sustainability in southern Ethiopia.</span>
-						</div>
-					</div>
-						<div class="col-md-6 col-xs-12 text-center animate-box">
-							<a class="work" target="_blank" href="https://jha-ayush.github.io/kdn/">
-								<div class="screenshots" style="background-image:url(images/projects/kdn.png);"></div>
-							</a>
-						</div>
-						<div class="col-xs-12 text-center fh5co-heading">
-							<h2>Web Apps</h2>
-						</div>
-						<div class="col-md-5 text-center col-xs-12 animate-box">
-							<div class="desc">
-								<h4><a class="work" target="_blank" href="https://gentle-ocean-15832.herokuapp.com/">CHŌRUS</a></h4>
-								<span class="cat">Ruby on Rails Web App</span>
+				<!-- CAROUSEL -->
+				<div class="row">
+
+					<div class="col-md-8 col-md-offset-5 col-xs-12 desc animate-box">
+						<div id="my-slider" class="carousel slide" data-ride="carousel">
+							<!-- Indicators -->
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner" role="listlistbox">
+								<div class="item active">
+									<div class="carousel-caption">
+									</div>
+									<div class="email-mobile-view">
+										<img src="images/email_marketing/mobile_view/Folgers_mobile.png" alt="Folgers">
+									</div>
+								</div>
+								<div class="item">
+									<div class="carousel-caption">
+									</div>
+									<div class="email-mobile-view">
+										<img src="images/email_marketing/mobile_view/NetJets_mobile.png" alt="NetJets">
+									</div>
+								</div>
+								<div class="item">
+									<div class="carousel-caption">
+									</div>
+									<div class="email-mobile-view">
+										<img src="images/email_marketing/mobile_view/NatureBox_mobile.png" alt="NatureBox">
+									</div>
+								</div>
+								<div class="item">
+									<div class="carousel-caption">
+									</div>
+									<div class="email-mobile-view">
+										<img src="images/email_marketing/mobile_view/AloYoga_mobile.png" alt="AloYoga">
+									</div>
+								</div>
 							</div>
+							<!-- Controls -->
 						</div>
-							<div class="col-md-6 col-md-offset-1 col-xs-12 text-center animate-box">
-								<a class="work" target="_blank" href="https://gentle-ocean-15832.herokuapp.com/">
-									<div class="screenshots" style="background-image:url(images/projects/chorus.png);"></div>
-								</a>
+					</div>
+				</div>
+				<!-- END CAROUSEL -->
+				</section>
+
+				<section id="" class="fh5co-bg-section">
+						<div class="col-md-8 col-md-offset-2 text-center col-xs-12 desc animate-box projects">
+							<h3>Freelance Work</h3>
+							<hr />
+							<!-- Grid row -->
+							  <!-- Grid column -->
+							  <div class="col-md-5 mb-4 animate-box projects">
+
+							    <!--Card-->
+							    <div class="card default-color-dark">
+
+							      <!--Card image-->
+							      <div class="view">
+							        <a href="http://kdneth.org/" target="_blank">
+							        	<img src="images/projects/kdn.png" class="card-img-top" alt="KDN">
+							        </a>
+							      </div>
+
+							      <!--Card content-->
+							      <div class="card-body text-center">
+							        <!--Title-->
+							        <h2 class="card-title">Kambata Development Network (KDN)</h2>
+							        <!--Text-->
+											<h3 class="card-text white-text">KDN is a non-profit 501(c)(3) organization that is focused on living sustainability and education in southern Ethiopia.</h3>
+							      </div>
+
+							    </div>
+							    <!--/.Card-->
+
+							  </div>
+							  <!-- Grid column -->
+
+							<!-- Grid row -->
+							<!-- Grid row -->
+							  <!-- Grid column -->
+							  <div class="col-md-5 col-md-offset-2 mb-4 animate-box projects">
+
+							    <!--Card-->
+							    <div class="card default-color-dark">
+
+							      <!--Card image-->
+							      <div class="view">
+							        <a href="https://jha-ayush.github.io/city_kabob/" target="_blank">
+							        	<img src="images/projects/city_kabob.png" class="card-img-top" alt="City Kabob">
+							        </a>
+							      </div>
+
+							      <!--Card content-->
+							      <div class="card-body text-center">
+							        <!--Title-->
+							        <h2 class="card-title">City Kabob</h2>
+							        <!--Text-->
+											<h3 class="card-text white-text">City Kabob (<em>now closed</em>) was a Persian Restaurant based in Sunnyvale, CA. It was a small family-owned restaurant that served delicious Persian food during lunch hours. </h3>
+							      </div>
+
+							    </div>
+							    <!--/.Card-->
+
+							  </div>
+							  <!-- Grid column -->
+							<!-- Grid row -->
+					</div>
+				</section>
+				<section id="" class="fh5co-bg-section">
+						<div class="col-md-8 col-md-offset-2 text-center col-xs-12 desc animate-box projects">
+							<h3>Personal Projects</h3>
+							<hr />
+						<!-- Grid column -->
+						<div class="col-md-5 mb-4 animate-box projects">
+
+							<!--Card-->
+							<div class="card primary-color-dark">
+
+								<!--Card image-->
+								<div class="view">
+									<a href="https://gentle-ocean-15832.herokuapp.com/" target="_blank">
+										<img src="images/projects/chorus.png" class="card-img-top" alt="CHŌRUS">
+									</a>
+								</div>
+
+								<!--Card content-->
+								<div class="card-body text-center">
+									<!--Title-->
+									<h2 class="card-title">CHŌRUS</h2>
+									<!--Text-->
+									<h3 class="card-text white-text">Built with a mobile-first design approach, CHŌRUS is a Ruby on Rails web app that allows housemates within a household unit to share chores and finished dates.</h3>
+								</div>
+
 							</div>
+							<!--/.Card-->
+
 						</div>
+						<!-- Grid column -->
+						<!-- Grid column -->
+
+						<!-- Grid column -->
+				</div>
+				</section>
+
+				<section id="fh5co-about" class="fh5co-bg-section">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 text-center col-xs-12 desc animate-box">
+							<h2 style="text-align:center;">About Me</h2>
+							<hr />
+							<p style="text-align:left;">I'm an Email Marketing Manager at <a href="https://www.crunchbase.com/organization/invoice2go/" target="_blank">Invoice2go</a>, a small-business invoicing SaaS company. I work closely with our Data Engineering, Product Design, Payments, Product Marketing & Customer Support groups to establish user specific communications that provides better context and usage of our product. I am responsible for all company's email communications and provide detailed metrics and analysis for the Product Growth team to drive user acquisition and user retention.</p>
+							<p style="text-align:left;">Technologies I've worked with:<br><em>Email Service Providers</em> - Cordial, Sparkpost, ExactTarget, MailChimp, SendGrid<br><em>Programming languages</em> - HTML/CSS, Javascript, Ruby on Rails, Java, PHP (Smarty)<br><em>Database(s)</em> - SQL<br><em>Design tools</em> - Sketch, Adobe Photoshop & Adobe Illustrator<br><em>Software processes</em> - Agile, Kanban, Waterfall<br><em>Other tools</em> - GitHub, JIRA, Confluence, Alation, Periscope, AWS S3, AWS EC2, MAMP, Heroku, Amplitude</p>
+						</div>
+					</div>
+				</section>
+
+				<section id="fh5co-footer" class="fh5co-bg-section">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center col-xs-12 desc animate-box">
+							<h3>Marketing campaigns I've previously worked on:</h3>
+							<hr />
+						</div>
+						<div class="col-md-6 col-md-offset-3 text-center col-xs-12 desc animate-box">
+							<img id="company_logos" src="images/email_campaign_logos.png" alt="Email Campaigns">
+						</div>
+					</div>
 				</section>
 
 			<footer id="fh5co-footer" role="contentinfo">
 					<div class="copyright">
 						<div class="col-xs-12 text-center">
-							<p><small class="block">&copy; 2016-2018 BlueLemur</small></p>
+     					<p>BlueLemur &copy; 2016<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script></p>
 						</div>
 					</div>
 			</footer>
@@ -251,6 +278,16 @@
 	<script src="js/jquery.waypoints.min.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+
+	<!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src="js/blue_lemur_react.js"></script>
+	<!-- Typewriter Effect -->
+	<script src="js/type_writer.js"></script>
 
 	</body>
 </html>
