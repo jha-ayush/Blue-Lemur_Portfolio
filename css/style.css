@@ -82,7 +82,7 @@ p > a:hover {
 h1, h2, h3, h4, h5, h6, figure {
   font-family: "Raleway", Arial, sans-serif;
   font-weight: 400;
-  margin: 20px 0 10px;
+  margin: 10px 0;
 }
 h4 {
   color: #F9F7F8;
