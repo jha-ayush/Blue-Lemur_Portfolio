@@ -816,7 +816,7 @@ h4 > a:hover {
   display: block;
 }
 .copyright {
-  color: #1B3068;
+  color: #E2AB49;
   font-size: 0.7em;
   font-weight: 200;
 }
@@ -1574,7 +1574,7 @@ img {
 }
 /* CAROUSEL */
 .email-mobile-view {
-  width: 30%;
+  width: 25%;
   padding: 0 50px 0 0;
   transition: (.3s ease-in-out left);
 }
@@ -1584,7 +1584,7 @@ img {
     width: 200px;
     border-radius: 50%;
     border: 2px solid #1B3068;
-    margin-top: 5.0em;
+    margin: 200px 0 0;
   }
 }
   @media screen and (max-width: 800px) {
@@ -1593,7 +1593,7 @@ img {
       width: 200px;
       border-radius: 50%;
       border: 2px solid #1B3068;
-      margin-top: 1.0em;
+      margin: 200px 0 0;
     }
   .email-mobile-view {
     width: 75%;
@@ -1606,7 +1606,7 @@ img {
     width: 200px;
     border-radius: 50%;
     border: 2px solid #1B3068;
-    margin-top: 5.0em;
+    margin: 200px 0 0;
   }
   .email-mobile-view {
     width: 75%;
