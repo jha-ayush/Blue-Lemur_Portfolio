@@ -1578,40 +1578,22 @@ img {
   padding: 0 50px 0 0;
   transition: (.3s ease-in-out left);
 }
-@media screen and (max-width: 1920px) {
-  #profilePhoto{
-    display: block;
-    width: 200px;
-    border-radius: 50%;
-    border: 2px solid #1B3068;
-    margin: 120px 0 30px 0px;
-  }
-}
 @media screen and (max-width: 2560px) {
   #profilePhoto{
     display: block;
     width: 200px;
     border-radius: 50%;
     border: 2px solid #1B3068;
-    margin: 200px 0 100px 0px;
+    margin: 200px 0 20px 50px;
   }
 }
-@media screen and (max-width: 1200px) {
-  #profilePhoto{
-    display: block;
-    width: 200px;
-    border-radius: 50%;
-    border: 2px solid #1B3068;
-    margin: 200px 0px 100px 0px;
-  }
-}
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 800px) {
     #profilePhoto{
       display: block;
       width: 200px;
       border-radius: 50%;
       border: 2px solid #1B3068;
-      margin: 200px 0px 30px 0px;
+      margin: 200px 0px 20px 50px;
     }
   .email-mobile-view {
     width: 75%;
@@ -1619,6 +1601,13 @@ img {
   }
 }
 @media screen and (max-width: 1200px) {
+  #profilePhoto{
+    display: block;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid #1B3068;
+    margin: 200px 0px 20px 50px;
+  }
   .email-mobile-view {
     width: 75%;
     padding: 50px 0 0 100px;
