@@ -1593,6 +1593,8 @@ img {
       width: 200px;
       border-radius: 50%;
       border: 2px solid #1B3068;
+      margin: 0 auto;
+      padding: none;
     }
   .email-mobile-view {
     width: 75%;
