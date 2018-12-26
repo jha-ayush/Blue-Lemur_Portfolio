@@ -1387,7 +1387,7 @@ blockquote .person cite {
 
 /*# sourceMappingURL=style.css.map */
 .icons {
-  color: #1B3068;
+  color: #E2AB49;
 }
 /* Card Flip - Y-axis*/
 .flip3D_Y {
@@ -1584,16 +1584,16 @@ img {
     width: 200px;
     border-radius: 50%;
     border: 2px solid #1B3068;
-    margin: 120px 0 30px 370px;
+    margin: 120px 0 30px 0px;
   }
 }
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 2560px) {
   #profilePhoto{
     display: block;
     width: 200px;
     border-radius: 50%;
     border: 2px solid #1B3068;
-    margin: 120px 0 30px 240px;
+    margin: 200px 0 100px 0px;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -1602,7 +1602,7 @@ img {
     width: 200px;
     border-radius: 50%;
     border: 2px solid #1B3068;
-    margin: 120px 0px 30px 130px;
+    margin: 200px 0px 100px 0px;
   }
 }
   @media screen and (max-width: 700px) {
@@ -1611,16 +1611,16 @@ img {
       width: 200px;
       border-radius: 50%;
       border: 2px solid #1B3068;
-      margin: 200px 0px 30px 90px;
+      margin: 200px 0px 30px 0px;
     }
   .email-mobile-view {
-    width: 70%;
+    width: 75%;
     padding: 50px 0 0 0;
   }
 }
 @media screen and (max-width: 1200px) {
   .email-mobile-view {
-    width: 70%;
+    width: 75%;
     padding: 50px 0 0 100px;
   }
   .copyright {
