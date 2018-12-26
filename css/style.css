@@ -1584,7 +1584,7 @@ img {
     width: 200px;
     border-radius: 50%;
     border: 2px solid #1B3068;
-    margin: 200px 0 20px 50px;
+    margin-top: 10.0em;
   }
 }
   @media screen and (max-width: 800px) {
@@ -1593,7 +1593,7 @@ img {
       width: 200px;
       border-radius: 50%;
       border: 2px solid #1B3068;
-      margin: 200px 0px 20px 50px;
+      margin-top: 10.0em;
     }
   .email-mobile-view {
     width: 75%;
@@ -1606,7 +1606,7 @@ img {
     width: 200px;
     border-radius: 50%;
     border: 2px solid #1B3068;
-    margin: 200px 0px 20px 50px;
+    margin-top: 10.0em;
   }
   .email-mobile-view {
     width: 75%;
