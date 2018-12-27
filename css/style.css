@@ -1593,6 +1593,11 @@ img {
       border-radius: 50%;
       border: 2px solid #1B3068;
     }
+    .mobile_carousel {
+      height: auto !important;
+      max-width: 50% !important;
+      padding: 0 0 0 150px;
+    }
 }
 @media screen and (max-width: 1200px) {
   #profilePhoto{
@@ -1619,5 +1624,5 @@ img {
 }
 .mobile_carousel {
   height: auto !important;
-  max-width: 50% !important;
+  max-width: 65% !important;
 }
