@@ -1586,7 +1586,7 @@ img {
     margin: 150px 0 0;
   }
 }
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 600px) {
     #profilePhoto{
       display: block;
       width: 200px;
@@ -1596,7 +1596,7 @@ img {
     }
     .mobile_carousel {
       height: auto !important;
-      max-width: 60% !important;
+      max-width: 70% !important;
       padding: 0 0 0 150px;
     }
 }
@@ -1625,5 +1625,5 @@ img {
 }
 .mobile_carousel {
   height: auto !important;
-  max-width: 80% !important;
+  max-width: 50% !important;
 }
