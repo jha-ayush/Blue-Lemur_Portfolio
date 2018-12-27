@@ -1587,7 +1587,7 @@ img {
     margin: 150px 0 0;
   }
 }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 900px) {
     #profilePhoto{
       display: block;
       width: 200px;
@@ -1595,7 +1595,7 @@ img {
       border: 2px solid #1B3068;
     }
   .email-mobile-view {
-    width: 75%;
+    width: 90%;
     padding: 0;
   }
 }
