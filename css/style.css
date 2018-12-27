@@ -1595,7 +1595,7 @@ img {
     }
     .mobile_carousel {
       height: auto !important;
-      max-width: 50% !important;
+      max-width: 60% !important;
       padding: 0 0 0 150px;
     }
 }
