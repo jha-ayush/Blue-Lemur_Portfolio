@@ -1592,7 +1592,7 @@ img {
       width: 200px;
       border-radius: 50%;
       border: 2px solid #1B3068;
-      margin: 60px 0 0 50px;
+      margin: 60px 0 0 20px;
     }
     .mobile_carousel {
       height: auto !important;
@@ -1606,7 +1606,7 @@ img {
     width: 200px;
     border-radius: 50%;
     border: 2px solid #1B3068;
-    margin: 60px 0 0 85px;
+    margin: 60px 0 0 55px;
   }
   .copyright {
     font-size: 0.7em;
