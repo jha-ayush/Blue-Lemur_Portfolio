@@ -1575,7 +1575,7 @@ img {
 /* CAROUSEL */
 .email-mobile-view {
   padding: 0;
-  width: 35%;
+  width: 100%;
   transition: (.3s ease-in-out left);
 }
 @media screen and (max-width: 2560px) {
@@ -1621,5 +1621,5 @@ img {
 }
 .mobile_carousel {
   height: auto !important;
-  max-width: 60% !important;
+  max-width: 100% !important;
 }
