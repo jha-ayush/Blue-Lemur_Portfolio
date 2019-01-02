@@ -1612,12 +1612,6 @@ img {
     width: 100%;
     padding: 0 0 20px;
   }
-  .projects {
-    padding: 2.0em 0;
-  }
-  .email-projects {
-    padding: 0;
-  }
 }
 .mobile_carousel {
   height: auto !important;
