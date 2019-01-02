@@ -1612,13 +1612,6 @@ img {
     width: 100%;
     padding: 0 0 20px;
   }
-  .projects {
-    padding: 0 0 2.0em;
-  }
-}
-.projects {
-  padding: 0 0 3.0em;
-}
 .mobile_carousel {
   height: auto !important;
   max-width: 100% !important;
