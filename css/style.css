@@ -26,7 +26,7 @@ body {
   /*text-transform: uppercase;*/
   font-weight: bold;
   font-family: 'Rock Salt', cursive;
-  color: #1B3068;
+  color: #2554A0;
 }
 #page {
   position: relative;
@@ -56,13 +56,13 @@ body {
 }
 
 a {
-  color: #1B3068;
+  color: #2554A0;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #1B3068;
+  color: #2554A0;
   outline: none;
   text-decoration: none;
 }
@@ -101,17 +101,17 @@ h4 > a:hover {
 }
 ::-webkit-selection {
   color: #F9F7F8;
-  background: #1B3068;
+  background: #2554A0;
 }
 
 ::-moz-selection {
   color: #F9F7F8;
-  background: #1B3068;
+  background: #2554A0;
 }
 
 ::selection {
   color: #F9F7F8;
-  background: #1B3068;
+  background: #2554A0;
 }
 
 .fh5co-nav {
@@ -292,7 +292,7 @@ h4 > a:hover {
   color: #000;
 }
 .fh5co-nav ul li.active > a {
-  color: #1B3068 !important;
+  color: #2554A0 !important;
 }
 .fh5co-nav ul li .form-group {
   border: 1px solid red;
@@ -354,7 +354,7 @@ h4 > a:hover {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #1B3068;
+  color: #2554A0;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -373,7 +373,7 @@ h4 > a:hover {
   position: relative;
 }
 .fh5co-contact-info ul li:before {
-  color: #1B3068;
+  color: #2554A0;
   position: absolute;
   left: 0;
   top: .05em;
@@ -406,26 +406,26 @@ h4 > a:hover {
 }
 .fh5co-bg-section {
   background: #F9F7F8;
-  color: #1B3068;
+  color: #2554A0;
   padding: 2.0em 0;
   width: 100%;
   /* height: 100vh; */
 }
 #fh5co-about{
-  background: #1B3068;
+  background: #2554A0;
   color: #F9F7F8;
 }
 #fh5co-work{
-  background: #1B3068;
+  background: #2554A0;
   color: #F9F7F8;
 }
 #fh5co-work > h2{
   background: #F9F7F8;
-  color: #1B3068;
+  color: #2554A0;
 }
 .txt-type {
   display: block;
-  color: #1B3068;
+  color: #2554A0;
   font-size: 0.7em;
 
 }
@@ -437,7 +437,7 @@ h4 > a:hover {
   /* padding: 5.6em 0; */
   clear: both;
   background: #F9F7F8;
-  color: #1B3068;
+  color: #2554A0;
   clear: both;
   /* height: 100vh; */
   width: 100%;
@@ -464,7 +464,7 @@ h4 > a:hover {
 #fh5co-footer {
   clear: both;
   background: #F9F7F8;
-  color: #1B3068;
+  color: #2554A0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-started,
@@ -488,7 +488,7 @@ h4 > a:hover {
 .feature-center .icon {
   width: 90px;
   height: 90px;
-  background: #1B3068;
+  background: #2554A0;
   display: table;
   text-align: center;
   margin-bottom: 30px;
@@ -598,7 +598,7 @@ h4 > a:hover {
   opacity: 1;
 }
 .work:hover .desc h3 a, .work:focus .desc h3 a {
-  color: #1B3068;
+  color: #2554A0;
 }
 
 .top-line {
@@ -658,7 +658,7 @@ h4 > a:hover {
   line-height: 1.5;
   letter-spacing: 1.1px;
   font-family: 'Limelight', cursive;
-  color: #1B3068;
+  color: #2554A0;
   padding-top: 20px;
 }
 .fh5co-heading h3 {
@@ -669,7 +669,7 @@ h4 > a:hover {
 .fh5co-heading p {
   font-size: 18px;
   line-height: 1.5;
-  color: #1B3068;
+  color: #2554A0;
 }
 .fh5co-heading span {
   display: block;
@@ -728,7 +728,7 @@ h4 > a:hover {
   letter-spacing: 1px;
 }
 .author .desc .fh5co-social-icons li a {
-  color: #1B3068;
+  color: #2554A0;
   padding-left: 0;
   padding-right: 10px;
 }
@@ -750,7 +750,7 @@ h4 > a:hover {
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
   border-radius: 50px;
-  background: #1B3068 !important;
+  background: #2554A0 !important;
 }
 
 #fh5co-started {
@@ -760,7 +760,7 @@ h4 > a:hover {
   margin-bottom: 20px !important;
 }
 #fh5co-started .fh5co-heading h2 {
-  color: #1B3068;
+  color: #2554A0;
   margin-bottom: 20px !important;
 }
 #fh5co-started .fh5co-heading p {
@@ -935,7 +935,7 @@ h4 > a:hover {
   padding: 10px 6px;
   line-height: 0;
   font-size: 11px;
-  background: #1B3068;
+  background: #2554A0;
   color: white;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1152,9 +1152,9 @@ h4 > a:hover {
 }
 
 .btn-primary {
-  background: #1B3068;
+  background: #2554A0;
   color: #F9F7F8;
-  border: 2px solid #1B3068;
+  border: 2px solid #2554A0;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #d4c8bb !important;
@@ -1162,11 +1162,11 @@ h4 > a:hover {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #1B3068;
-  border: 2px solid #1B3068;
+  color: #2554A0;
+  border: 2px solid #2554A0;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #1B3068;
+  background: #2554A0;
   color: #F9F7F8;
 }
 
@@ -1296,7 +1296,7 @@ h4 > a:hover {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #1B3068;
+  border-color: #2554A0;
 }
 
 .row {
@@ -1399,7 +1399,7 @@ blockquote .person cite {
 .flip3D_Y > .front_Y{
     position:absolute;
     transform: perspective( 300px ) rotateY( 0deg );
-    background:#1B3068;
+    background:#2554A0;
     color: #F9F7F8;
     width:300px;
     height:auto;
@@ -1410,7 +1410,7 @@ blockquote .person cite {
 .flip3D_Y > .back_Y{
     position:absolute;
     transform: perspective( 600px ) rotateY( 180deg );
-    background: #1B3068;
+    background: #2554A0;
     color: #F9F7F8;
     width:600px;
     height:auto;
@@ -1583,7 +1583,7 @@ img {
     display: block;
     width: 200px;
     border-radius: 50%;
-    border: 2px solid #1B3068;
+    border: 2px solid #2554A0;
     margin: 150px 0 0;
   }
 }
@@ -1592,7 +1592,7 @@ img {
       display: block;
       width: 200px;
       border-radius: 50%;
-      border: 2px solid #1B3068;
+      border: 2px solid #2554A0;
       margin: 60px 0 0 20px;
     }
 }
@@ -1601,7 +1601,7 @@ img {
     display: block;
     width: 200px;
     border-radius: 50%;
-    border: 2px solid #1B3068;
+    border: 2px solid #2554A0;
     margin: 60px 0 0 55px;
   }
   .copyright {
