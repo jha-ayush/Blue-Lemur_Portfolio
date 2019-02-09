@@ -12,7 +12,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: 'Avenir', 'Lato', 'Raleway', Verdana, sans-serif;
   font-weight: 300;
   font-size: 1.5em;
   line-height: 1.7;
@@ -69,7 +69,7 @@ a:hover, a:active, a:focus {
 
 p {
   margin-bottom: 20px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Avenir', 'Lato', 'Raleway', Verdana, sans-serif;
   font-size: 1.2em;
 }
 p > a {
@@ -80,13 +80,13 @@ p > a:hover {
   color: #F9F7F8;
 }
 h1, h2, h3, h4, h5, h6, figure {
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: 'Avenir', 'Lato', 'Raleway', Verdana, sans-serif;
   font-weight: 400;
   margin: 10px 0;
 }
 h4 {
   color: #F9F7F8;
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: 'Avenir', 'Lato', 'Raleway', Verdana, sans-serif;
   font-weight: 400;
   font-size: 1.1em;
   margin: 0 0 20px 0;
@@ -216,7 +216,7 @@ h4 > a:hover {
   margin: 0;
   list-style: none;
   display: inline-block;
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: 'Avenir', 'Lato', 'Raleway', Verdana, sans-serif;
 }
 .fh5co-nav ul li a {
   text-transform: uppercase;
@@ -613,7 +613,7 @@ h4 > a:hover {
   margin: 0;
 }
 .categories li {
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: 'Avenir', 'Lato', 'Raleway', Verdana, sans-serif;
   list-style: none;
   margin-bottom: 5px;
 }
@@ -677,7 +677,7 @@ h4 > a:hover {
   text-transform: uppercase;
   font-size: 0.7rem;
   letter-spacing: 2px;
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: 'Avenir', 'Lato', 'Raleway', Verdana, sans-serif;
 }
 
 .title {
@@ -1128,7 +1128,7 @@ h4 > a:hover {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: 'Avenir', 'Lato', 'Raleway', Verdana, sans-serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 2px;
@@ -1349,7 +1349,7 @@ blockquote p {
   color: #666666;
 }
 blockquote .person {
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: 'Avenir', 'Lato', 'Raleway', Verdana, sans-serif;
   font-size: 14px;
   color: #b3b3b3;
 }
